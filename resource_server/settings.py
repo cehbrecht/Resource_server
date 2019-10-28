@@ -122,9 +122,9 @@ STATIC_URL = '/static/'
 
 # Keycloak settings
 KEYCLOAK_CLIENT_ID = 'test'
-KEYCLOAK_CLIENT_SECRET = '<PUT THE SECRET HERE>'
-KEYCLOAK_TOKEN_INTROSPECT_URL = 'http://localhost:8080/auth/realms/master/protocol/openid-connect/token/introspect'
-KEYCLOAK_PUBLIC_KEY = """-----BEGIN PUBLIC KEY-----\n<PUT THE PUBLIC KEY HERE>\n-----END PUBLIC KEY-----"""
+KEYCLOAK_CLIENT_SECRET = 'bd6fea64-2588-4707-8611-922b5d3f47da'
+KEYCLOAK_TOKEN_INTROSPECT_URL = 'http://localhost:8080/auth/realms/demo/protocol/openid-connect/token/introspect'
+KEYCLOAK_PUBLIC_KEY = """-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArcNKBhuO6a+PDiHVA28Z2QUq/Sy9YpB0FuBPXgnID+TZEwiDscYW1vxKD1LV0e2niwXyYViVfJ98pdQ/VSl/qBPoxQbsUjimi6VaOr4nqYUf+P7CGXtmDeZMkvKPR8SshhXB7vFaqF+tWZx5VxecsAlG2frF79emVACI3Ug4mWJFkhTzGvbwehHfGS0sNmLo7zhookguIP2yehupxVVKTN3EodDJt3eHaPrITQUlhdYkm0a6uCCm2PnZoq39x8v2nBZGgUyR4DePz4RDWQA77OgIAfZGscFA0n4KKB4Q3/PAvuXPz/tpzezxaNRvT83Mjx/0uex9pHvwo0lnGEjPxwIDAQAB\n-----END PUBLIC KEY-----"""
 SSL_VERIFY = False
 
 LOGGING = {
